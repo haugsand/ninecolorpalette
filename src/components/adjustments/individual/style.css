@@ -1,0 +1,12 @@
+.locked {
+background-color:  red;
+}
+
+.unlocked {
+
+
+}
+
+.individual__controls {
+	display: flex;
+}

@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coutner-",
+				"counter-increment"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"to",
+				"toAccount"
+			],
+			[
+				"for",
+				"formattetDate"
+			],
+			[
+				"ne",
+				"nextProps"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"organization",
+				"organization-wizard__buttons"
+			],
+			[
+				"from",
+				"fromAccounts"
+			],
+			[
+				"se",
+				"selectedOrganisation"
+			],
+			[
+				"word-",
+				"word-break"
+			],
+			[
+				"spae-",
+				"space-between"
+			],
+			[
+				"Fix",
+				"FixrateLogoIcon"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"subcar",
+				"subcard__message"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"trafi",
+				"trafikkulykkeTitle"
+			],
+			[
+				"fetch",
+				"fetchVegobjekter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ninecolorpalette.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/maghau/git/ninecolorpalette",
+		"/Users/maghau/git/ninecolorpalette/src",
+		"/Users/maghau/git/ninecolorpalette/src/components",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/individual",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/overall",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette/paletterow",
+		"/Users/maghau/git/ninecolorpalette/src/style"
+	],
+	"file_history":
+	[
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/overall/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/components/app.js",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/style/index.css",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/individual/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/individual/style.css",
+		"/Users/maghau/git/ninecolorpalette/src/components/adjustments/style.css",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette/paletterow/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette/paletterow/style.css",
+		"/Users/maghau/git/ninecolorpalette/src/components/palette/style.css",
+		"/Users/maghau/git/ninecolorpalette/src/components/header/index.js",
+		"/Users/maghau/git/ninecolorpalette/src/template.html",
+		"/Users/maghau/OneDrive - Kantega/Kantega/bindeleddet.txt",
+		"/Users/maghau/OneDrive - Kantega/IxDA Trondheim - Rådsmøte 2020.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/atb/atb.txt",
+		"/Users/maghau/OneDrive - Kantega/Kantega/Introducing Kantega Homebrew Website Club.txt",
+		"/Users/maghau/OneDrive - Kantega/Kantega/user guide magnus.md",
+		"/Users/maghau/Downloads/mesta.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/bildeleringen.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/vinterdrift.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/frodestordal.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/siwanitakilli-endresolberg.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/finnvassbakken.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/annelise.txt",
+		"/Users/maghau/OneDrive - Kantega/Kantega/PechaKucha.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/refusjon.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/Fravær.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/person-ny.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/prosess.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/portaler.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/høstens aktiviteter.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/informasjon.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/atb-prosess.md",
+		"/Users/maghau/OneDrive - Kantega/WIP/atb.txt",
+		"/Users/maghau/Desktop/prog.html",
+		"/Users/maghau/OneDrive - Kantega/WIP/falkmeier.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/ncc.txt",
+		"/Users/maghau/Desktop/test.html",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/aditro ux meeting.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/uxbootcamp.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/jonespen.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/Person.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/aditro/ajourhold.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/atle.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/jørund.txt",
+		"/Users/maghau/OneDrive - Kantega/uxkickoff.txt",
+		"/Users/maghau/Downloads/leaflet.html",
+		"/Users/maghau/Downloads/betaling.svg",
+		"/Users/maghau/Downloads/Betaling 1 (1).svg",
+		"/Users/maghau/Downloads/Betaling 2 (1).svg",
+		"/Users/maghau/Downloads/Betaling 1.svg",
+		"/Users/maghau/Downloads/Betaling 2.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/designendringer-tut.txt",
+		"/Users/maghau/OneDrive - Kantega/WIP/Brukestest i kantina 9. februar 2018.txt",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/trades.css",
+		"/Users/maghau/Downloads/kahoot.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/deal-menu.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/main.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/forside.html",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/forsidekort.html",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/mainmenu.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/footer.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/front.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/newdeal.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/learnmore.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/style.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/howto.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/userstatus.css",
+		"/Users/maghau/Downloads/bilbla.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/trades old.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/base.css",
+		"/Users/maghau/Downloads/image.svg",
+		"/Users/maghau/Downloads/image (1).svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/underkort.html",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/egenkapital.html",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/header.css",
+		"/Users/maghau/Downloads/signeringenstor.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/gfx/logo_sb1-tut.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/layout.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/gfx/logo_on_white.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/deal-card.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/subcard.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/card.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/gfx/icon-car.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/gfx/icon-signature.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/fonts.css",
+		"/Users/maghau/OneDrive - Kantega/projects/TUT-design/css/normalize.css",
+		"/Users/maghau/git/fixrate/marketplace/src/app/components/orders/bank/OrdersBankInput-SignedDocuments.jsx",
+		"/Users/maghau/git/fixrate/marketplace/src/app/components/orders/bank/OrdersBankInput-DocumentsUpload.jsx",
+		"/Users/maghau/git/fixrate/marketplace/src/style/base.css",
+		"/Users/maghau/OneDrive - Kantega/projects/Trygg bilhandel/Smertepunkter.txt",
+		"/Users/maghau/Downloads/forsikringoggaranti.svg",
+		"/Users/maghau/Downloads/sjekklistenStor.svg",
+		"/Users/maghau/Downloads/kontraktenStor.svg",
+		"/Users/maghau/OneDrive - Kantega/projects/jernbanetilsynet/brukerobservasjoner.txt",
+		"/Users/maghau/Downloads/tommel-opp-ikon.svg",
+		"/Users/maghau/Downloads/innretning.svg",
+		"/Users/maghau/Downloads/tut-tekst.svg",
+		"/Users/maghau/Downloads/bilstor.svg",
+		"/Users/maghau/Desktop/HelloAnalytics.html",
+		"/Users/maghau/Downloads/bil.svg",
+		"/Users/maghau/Downloads/forsikring.svg",
+		"/Users/maghau/Downloads/kontrakten.svg",
+		"/Users/maghau/Downloads/signering.svg",
+		"/Users/maghau/Downloads/sjekklisten.svg",
+		"/Users/maghau/Downloads/bilen.svg",
+		"/Users/maghau/Downloads/personer.svg",
+		"/Users/maghau/Downloads/tut.svg",
+		"/Users/maghau/git/react-html5-form-validation/src/index.css",
+		"/Users/maghau/git/react-html5-form-validation/src/CodeBlock.jsx",
+		"/Users/maghau/git/react-html5-form-validation/src/App.js",
+		"/Users/maghau/git/react-html5-form-validation/node_modules/prismjs/prism.js",
+		"/Users/maghau/git/fixrate/marketplace/src/app/components/help/Help.jsx",
+		"/Users/maghau/git/fixrate/marketplace/src/style/blocks/help.css",
+		"/Users/maghau/git/fixrate/marketplace/src/app/components/signup/Signup.jsx",
+		"/Users/maghau/git/fixrate/marketplace/src/style/blocks/signup.css",
+		"/Users/maghau/git/fixrate/marketplace/src/style/blocks/login.css",
+		"/Users/maghau/git/fixrate/marketplace/src/app/components/portfolio/DepositList.jsx",
+		"/Users/maghau/git/datakatalogen/src/Components/Vegobjekttype/Egenskapstyper/Egenskapstyper.jsx",
+		"/Users/maghau/git/datakatalogen/src/Components/Vegobjekttype/Vegobjekttype.jsx",
+		"/Users/maghau/git/datakatalogen/src/Components/Vegobjekttype/Egenskapstyper/Egenskapstype.jsx",
+		"/Users/maghau/git/datakatalogen/src/services/vegkart.js",
+		"/Users/maghau/git/datakatalogen/src/Components/Vegobjekttype/Egenskapstyper/EgenskapstypeDetails.jsx",
+		"/Users/maghau/git/datakatalogen/src/Components/App.js",
+		"/Users/maghau/git/datakatalogen/src/Components/VegobjekttypeList/VegobjekttypeList.jsx",
+		"/Users/maghau/git/datakatalogen/src/services/server.js",
+		"/Users/maghau/git/datakatalogen/src/Components/VegobjekttypeList/VegobjekttypeListGroup.jsx"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#",
+			".s",
+			"Adjustments",
+			" setColors={setColors} refreshColors={refreshColors}",
+			" setColors, refreshColors,",
+			"let newColors = {...colors};\n        newColors = refreshColors(newColors);\n\n        setColors(newColors);",
+			"White",
+			"backgroundColor",
+			"div",
+			"900",
+			"onInput"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ninecolorpalette.sublime-project",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ninecolorpalette.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/OneDrive - Kantega/projects/aditro/informasjon.txt"
+			],
+			[
+				"organi",
+				"src/app/components/organizations/OrganisationDetail.jsx"
+			],
+			[
+				"getvda",
+				"src/app/services/getValidationErrorMessage.js"
+			],
+			[
+				"validate",
+				"src/app/services/validateFields.js"
+			],
+			[
+				"ad.js",
+				"src/app/components/marketplace/Ad.jsx"
+			],
+			[
+				"index.",
+				"src/public/index.html"
+			],
+			[
+				"profile.",
+				"src/app/components/profile/Profile.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

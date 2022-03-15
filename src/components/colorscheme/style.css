@@ -1,0 +1,176 @@
+.design-colorscheme {
+  padding-bottom: var(--space-2x);
+}
+
+.design-colorscheme__title {
+  color: white;
+}
+
+.design-colorscheme__paragraph {
+  color: var(--color-100);
+}
+
+.design-colorscheme__link {
+  color: var(--color-300);
+}
+
+.design-colorscheme__link:hover {
+  color: var(--color-400);
+}
+
+
+.design-colorscheme__bg {
+  background-color: var(--color-900);
+}
+
+.design-colorscheme__schemes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--space-2x);
+  margin-bottom: var(--space-1x);
+}
+
+.design-colorscheme__scheme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: var(--space-2x);
+  margin-bottom: var(--space-2x);
+}
+
+.design-colorscheme__scheme-name {
+  margin-top: var(--space-1x);
+  color: var(--color-200);
+  font-size: 0.875rem;
+}
+
+.design-colorscheme__colorcircle {
+  --size: 8rem;
+  height: var(--size);
+  width: var(--size);
+  font-size: calc(var(--size) / 100);
+  position: relative;
+}
+
+.design-colorscheme__colorcircle-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100em;
+  height: 100em;
+  border-radius: 50em;
+  z-index: 1;
+  opacity: 0.5;
+  background: conic-gradient(from 0deg at 50% 50%, 
+    hsl(0 100% 50%) 0deg,
+    hsl(22.5 100% 50%) 022.5deg,
+    hsl(45 100% 50%) 45deg,
+    hsl(67.5 100% 50%) 67.5deg,
+    hsl(90 100% 50%) 90deg,
+    hsl(112.5 100% 50%) 112.5deg,
+    hsl(135 100% 50%) 135deg,
+    hsl(157.5 100% 50%) 157.5deg,
+    hsl(180 100% 50%) 180deg,
+    hsl(202.5 100% 50%) 202.5deg,
+    hsl(225 100% 50%) 225deg,
+    hsl(247.5 100% 50%) 247.5deg,
+    hsl(270 100% 50%) 270deg,
+    hsl(292.5 100% 50%) 292.5deg,
+    hsl(315 100% 50%) 315deg,
+    hsl(337.5 100% 50%) 337.5deg,
+    hsl(360 100% 50%) 360deg);
+}
+
+.design-colorscheme__colorcircle-center {
+  position: absolute;
+  top: 25em;
+  left: 25em;
+  width: 50em;
+  height: 50em;
+  border-radius: 25em;
+  z-index: 2;
+}
+
+.design-colorscheme__svg-line {
+  width: 100em;
+  height: 100em;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.design-colorscheme__svg-line path {
+  stroke: white;
+  stroke-width: 0.125rem;
+}
+
+.design-colorscheme__colorcircle-pin {
+  position: absolute;
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 6.75em;
+  border: 0.125rem solid white;
+  z-index: 4;
+  box-sizing: border-box;
+} 
+.design-colorscheme__colorcircle-pin--0 {
+  background-color: hsl(0 100% 50%);
+  top: 6.25em;
+  left: 43.75em;
+}
+.design-colorscheme__colorcircle-pin--30 {
+  background-color: hsl(30 100% 50%);
+  top: 11.71875em; 
+  right: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--60 {
+  background-color: hsl(60 100% 50%);
+  right: 11.71875em; 
+  top: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--90 {
+  background-color: hsl(90 100% 50%);
+  right: 6.25em;
+  top: 43.75em;
+}
+.design-colorscheme__colorcircle-pin--120 {
+  background-color: hsl(120 100% 50%);
+  right: 11.71875em; 
+  bottom: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--150 {
+  background-color: hsl(150 100% 50%);
+  bottom: 11.71875em; 
+  right: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--180 {
+  background-color: hsl(180 100% 50%);
+  bottom: 6.25em;
+  left: 43.75em;
+}
+.design-colorscheme__colorcircle-pin--210 {
+  background-color: hsl(210 100% 50%);
+  bottom: 11.71875em; 
+  left: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--240 {
+  background-color: hsl(240 100% 50%);
+  left: 11.71875em; 
+  bottom: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--270 {
+  background-color: hsl(270 100% 50%);
+  left: 6.25em;
+  top: 43.75em;
+}
+.design-colorscheme__colorcircle-pin--300 {
+  background-color: hsl(300 100% 50%);
+  left: 11.71875em; 
+  top: 25.78125em;
+}
+.design-colorscheme__colorcircle-pin--330 {
+  background-color: hsl(330 100% 50%);
+  top: 11.71875em; 
+  left: 25.78125em;
+}

@@ -1,0 +1,30 @@
+.design-hsl__bg {
+  background-color: white;
+}
+
+.design-hsl__figure {
+  margin: var(--space-2x) 0;
+}
+
+.design-hsl__images {
+  display: flex;
+}
+
+.design-hsl__image {
+  width: calc(50% - var(--space-1x));
+  max-width: 21rem;
+  height: auto;
+  margin-bottom: var(--space-2x);
+  margin-right: var(--space-2x);
+}
+
+.design-hsl__image:last-child {
+  margin-right: 0;
+}
+
+.design-hsl__figcaption {
+  color: var(--color-800);
+  font-size: 0.875rem;
+  text-align: center;
+  display: block;
+}

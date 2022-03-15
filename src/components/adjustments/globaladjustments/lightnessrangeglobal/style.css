@@ -1,0 +1,25 @@
+.lightnessrangeglobal {
+
+}
+
+
+.lightnessrangeglobal__title {
+}
+
+.lightnessrangeglobal__input-container {
+  height: var(--swatch);
+  width: var(--swatch-9);
+  background: hsl(var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%));
+  background: linear-gradient(90deg, 
+    hsl(var(--hue) calc(var(--saturation) * 1%) 0%) 0%,
+    hsl(var(--hue) calc(var(--saturation) * 1%) 50%) 50%,
+    hsl(var(--hue) calc(var(--saturation) * 1%) 100%) 100%);
+} 
+
+
+.lightnessrangeglobal__input {
+  width: var(--swatch-9);
+  height: var(--swatch);
+}
+
+

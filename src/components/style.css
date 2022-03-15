@@ -1,0 +1,45 @@
+main {
+  background-color: var(--color-100);
+  color: var(--color-900);
+  display: grid;
+  grid-template-columns: 1fr 45rem 1fr;
+}
+
+main > * {
+  grid-column: 2 / span 1;
+}
+
+.bg__left {
+  grid-column: 1 / span 1;
+}
+
+.bg__right {
+  grid-column: 3 / span 1;
+}
+
+a {
+  color: var(--color-500);
+}
+
+a:hover {
+  color: var(--color-600);
+}
+
+
+h2 {
+  color: var(--color-800);
+}
+
+h2::after {
+  background-color: var(--color-500);
+}
+
+
+.design-section {
+  padding-top: var(--space-2x);
+  padding-bottom: var(--space-4x);
+}
+
+.design-section > :last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,13 @@
+.saturationrange {
+  height: 6.25rem;
+  padding: 0.125rem 0;
+  width: var(--swatch);
+  background-color: var(--color);
+}
+
+.saturationrange__input {
+  transform: rotate(-90deg);
+  transform-origin: 3.125rem 3.125rem;
+  width: 6.25rem;
+  height: var(--swatch);
+}

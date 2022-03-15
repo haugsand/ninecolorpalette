@@ -1,0 +1,56 @@
+.huerangeglobal {
+
+}
+
+
+.huerangeglobal__title {
+}
+
+.huerangeglobal__input-container {
+  height: var(--swatch);
+  width: var(--swatch-9);
+  background: hsl(var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%));
+  background: linear-gradient(90deg, 
+    hsl(0 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 0%,
+    hsl(11.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 3.125%,
+    hsl(22.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 6.25%,
+    hsl(33.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 9.375%,
+    hsl(45.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 12.5%,
+    hsl(56.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 15.625%,
+    hsl(67.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 18.75%,
+    hsl(78.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 21.875%,
+    hsl(90.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 25%,
+    hsl(101.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 28.125%,
+    hsl(112.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 31.25%,
+    hsl(123.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 34.375%,
+    hsl(135.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 37.5%,
+    hsl(146.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 40.625%,
+    hsl(157.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 43.75%,
+    hsl(168.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 46.875%,
+    hsl(180.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 50%,
+    hsl(191.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 53.125%,
+    hsl(202.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 56.25%,
+    hsl(213.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 59.375%,
+    hsl(225.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 62.5%,
+    hsl(236.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 65.625%,
+    hsl(247.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 68.75%,
+    hsl(258.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 71.875%,
+    hsl(270.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 75%,
+    hsl(281.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 78.125%,
+    hsl(292.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 81.25%,
+    hsl(303.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 84.375%,
+    hsl(315.00 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 87.5%,
+    hsl(326.25 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 90.625%,
+    hsl(337.50 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 93.75%,
+    hsl(348.75 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 96.875%,
+    hsl(360 calc(var(--saturation) * 1%) calc(var(--lightness) * 1%)) 100%);
+} 
+
+
+
+.huerangeglobal__input {
+  width: var(--swatch-9);
+  height: var(--swatch);
+}
+
+

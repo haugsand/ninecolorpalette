@@ -1,0 +1,23 @@
+.palette {
+  background-color: white;
+  border-bottom: 4rem solid var(--color-200);
+}
+
+.palette__left-bg {
+  background-color: white;
+  padding-top: 9.5rem;
+}
+
+.palette__left-bg-color {
+  height: 3.5rem;
+  margin-right: 3rem;
+}
+
+.palette__table {
+  border-collapse: collapse;
+}
+
+.palette__td {
+  font-family:  monospace;
+  padding: 1rem;
+}

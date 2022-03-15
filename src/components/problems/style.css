@@ -1,0 +1,51 @@
+.design-problems__swatches {
+  display: flex;
+  margin: var(--space-2x) 0;
+}
+
+.design-problems__swatch {
+  width: var(--space-4x);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  padding: var(--space-1x) 0;
+}
+
+.design-problems__swatch--yellow {
+  background-color: hsl(60 90% 60%);
+  color: black;
+  margin-right: var(--space-1x);
+}
+.design-problems__swatch--blue {
+  background-color: hsl(240 90% 60%);
+  color: white;
+}
+
+.design-problems__swatch-hue {
+  font-size: 0.875rem;
+}
+
+.design-problems__swatch-value {
+  font-weight: 500;
+}
+
+.design-problems__colorscales-container {
+  margin: var(--space-2x) 0;
+}
+
+.design-problems__colorscales {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: var(--space-1x);
+}
+
+.design-problems__colorscale {
+  display: flex;
+  margin-right: var(--space-1x);
+}
+
+.design-problems__colorscale-color {
+  height: 2rem;
+  width: 2rem;
+}

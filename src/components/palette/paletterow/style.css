@@ -1,0 +1,12 @@
+.palette__section {
+
+}
+
+.palette__table {
+  border-collapse: collapse;
+}
+
+.palette__td {
+  font-family:  monospace;
+  padding: 1rem;
+}

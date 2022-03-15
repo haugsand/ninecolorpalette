@@ -1,0 +1,26 @@
+.saturationrangeglobal {
+
+}
+
+
+.saturationrangeglobal__title {
+}
+
+.saturationrangeglobal__input-container {
+  height: var(--swatch);
+  width: var(--swatch-9);
+    background: hsl(var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%));
+    background: linear-gradient(90deg, 
+      hsl(var(--hue) 0% calc(var(--lightness) * 1%)) 0%, 
+      hsl(var(--hue) 50% calc(var(--lightness) * 1%)) 50%, 
+      hsl(var(--hue) 100% calc(var(--lightness) * 1%)) 100%);
+} 
+
+
+
+.saturationrangeglobal__input {
+  width: var(--swatch-9);
+  height: var(--swatch);
+}
+
+

@@ -1,0 +1,34 @@
+.design-footer {
+  color: white;
+  padding-bottom: var(--space-2x);
+}
+
+.design-footer__bg {
+  background-color: var(--color-800);
+}
+
+.design-footer__paragraph {
+  font-size: 14px;
+}
+
+.design-footer__link {
+  color: var(--color-300);
+}
+
+.design-footer__link:hover {
+  color: var(--color-400);
+}
+
+
+.design-footer__reset-button {
+  border: 0;
+  background-color: var(--color-700);
+  color: var(--color-200);
+  font-size: 14px;
+  font-weight: 400;
+  padding: calc(var(--space-1x) / 2);
+}
+
+.design-footer__reset-button:hover {
+  text-decoration: underline;
+}
