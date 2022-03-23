@@ -12,9 +12,9 @@ function Adjustments({colors, updateColors, toggleLock}) {
     const [activeTab, setActiveTab] = useState('overall');
 
     return (
-        <div class="design-section">
-            <h2>Adjustments</h2>
-            <p>
+        <div class="design-section adjustments">
+            <h2 class="adjustments__title">Adjustments</h2>
+            <p class="adjustments__tabs">
               <button onClick={() => {setActiveTab('overall')}}>Overall look and feel</button>&nbsp;
               <button onClick={() => {setActiveTab('individual')}}>Individual color adjustment</button>
             </p>

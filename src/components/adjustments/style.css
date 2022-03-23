@@ -1,0 +1,19 @@
+.adjustments {
+position: fixed;
+width: 22rem;
+background: white;
+max-height: calc(100vh - 8rem);
+overflow-y: auto;
+overflow-x: hidden;
+top: 2rem;
+right: 2rem;
+padding: 2rem;
+}
+
+.adjustments__title {
+    display: none;
+}
+
+.adjustments__tabs {
+    margin-right:  -1rem;
+}

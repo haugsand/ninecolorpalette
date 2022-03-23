@@ -32,14 +32,14 @@ function Individual({colors, updateColors, toggleLock}) {
     return (
         <div class="individual">
 
-            <p>Hue</p>
+            <p class="individual__title">Hue</p>
             <div class="individual__controls">
                 {Object.keys(colors).reverse().map((value, index) => {
                     return <HueRange colors={colors} updateColors={updateColors} step={value} />
                 })}
             </div>
 
-            <p>Saturation</p>
+            <p class="individual__title">Saturation</p>
             <div class="individual__controls">
                 {Object.keys(colors).reverse().map((value, index) => {
                     return <SaturationRange colors={colors} updateColors={updateColors} step={value} />
@@ -47,7 +47,7 @@ function Individual({colors, updateColors, toggleLock}) {
             </div>
 
 
-            <p>Lightness</p>
+            <p class="individual__title">Lightness</p>
             <div class="individual__controls">
                 {Object.keys(colors).reverse().map((value, index) => {
                     return <LightnessRange colors={colors} updateColors={updateColors} step={value} />

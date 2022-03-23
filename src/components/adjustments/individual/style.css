@@ -1,3 +1,9 @@
+.locked, .unlocked {
+	width: 2rem;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
 .locked {
 background-color:  red;
 }
@@ -9,4 +15,10 @@ background-color:  red;
 
 .individual__controls {
 	display: flex;
+	margin-bottom:  1.5rem;
+}
+
+.individual__title {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
 }
