@@ -15,7 +15,7 @@ main > * {
 }
 
 .bg__right {
-  grid-column: 3 / span 1;
+  grid-column: 3 / span 3;
 }
 
 a {

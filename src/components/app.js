@@ -55,7 +55,7 @@ class Color {
   unlockColor() { this.locked = false; }
 }
 
-function refreshColors(colors, lockedStep) {
+function calculateNewPalette(colors, lockedStep) {
   
   // Ta hensyn til følgende: Om denne refreshen skjer som følge av at jeg justerer en bestemt farge, vil jeg at denne fargen skal være låst. 
   
@@ -87,7 +87,7 @@ function refreshColors(colors, lockedStep) {
 
 function App() {
 
-    const defaultColors = {
+    const defaultPalette = {
         900: new Color('#300319', 900),
         800: new Color('#570930', 800),
         700: new Color('#811049', 700),
@@ -99,11 +99,11 @@ function App() {
         100: new Color('#fef5fa', 100)
     }
 
-    defaultColors[900].lockColor();
-    defaultColors[500].lockColor();
-    defaultColors[100].lockColor();
+    defaultPalette[900].lockColor();
+    defaultPalette[500].lockColor();
+    defaultPalette[100].lockColor();
 
-    const [colors, setColors] = useState(defaultColors);
+    const [colors, setPalette] = useState(defaultPalette);
 
     const style = {
         "--color-900": colors[900].hex,
@@ -117,15 +117,15 @@ function App() {
         "--color-100": colors[100].hex
     };
 
-    function updateColors(colors, lockedStep) {
-        const newColors = refreshColors({...colors}, lockedStep);
-        setColors(newColors);
+    function updatePalette(colors, lockedStep) {
+        const newPalette = calculateNewPalette({...colors}, lockedStep);
+        setPalette(newPalette);
     }
 
     function toggleLock(colors, step) {
         colors[step].toggleLock();
-        const newColors = {...colors};
-        setColors(newColors);
+        const newPalette = {...colors};
+        setPalette(newPalette);
     }
 
     return (
@@ -134,7 +134,7 @@ function App() {
             <Header />
             <Intro />
 
-            <Adjustments colors={colors} updateColors={updateColors} toggleLock={toggleLock} />
+            <Adjustments colors={colors} updateColors={updatePalette} toggleLock={toggleLock} />
             <Palette colors={colors} />
 
             <Ninecolors />

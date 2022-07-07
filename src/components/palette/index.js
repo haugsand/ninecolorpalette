@@ -35,7 +35,7 @@ function Palette({colors}) {
         <>
             <div class="bg__left palette__left-bg">
                 {Object.keys(colors).reverse().map((value, index) => {
-                    return <div class="palette__left-bg-color" style={{backgroundColor: colors[value].hex}}></div>
+                    return <div class="palette__left-bg-color" style={{backgroundColor: `var(--color-${value})`}}></div>
                 })}
             </div>
             <div class="design-section palette">
